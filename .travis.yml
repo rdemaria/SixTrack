@@ -4,12 +4,12 @@ compiler:
 - gcc
 
 install:
-  - cmake_six BUILD_TESTING
-  - cd *BUILD_TESTING
+  - ./cmake_six BUILD_TESTING
+  - cd *BUILD_TESTING*
   - make
 
 script:
-  - cd *BUILD_TESTING
+  - cd *BUILD_TESTING*
   - ctest -L fast
   
 dist: trusty

@@ -22,3 +22,5 @@ addons:
     - gfortran
     - cmake
 
+git:
+  submodules: false  
